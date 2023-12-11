@@ -1,0 +1,64 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.container{
+    border:3px violet solid;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width:30%;
+    gap:10px;
+
+}
+.container img{
+    height:200px;
+    border-radius: 10px;;
+    
+}
+
+h1 {
+    color:blueviolet
+}
+
+input{
+    border-color:red;
+    background-color:yellow;
+    height:40px;
+    width:50%;
+    border-radius: 10px;
+    text-align:center;
+    color:red;
+    font-size:20px;
+}
+
+/* .para{
+    border:1px  red solid;
+    background-color:orangered;
+    height:30px;
+    width:70%;
+    padding:10px;
+    border-radius: 10px;
+    text-align:center;
+    color:white;
+    font-size:20px; 
+} */
+
+.button1{
+    border:1px  red solid;
+    background-color:aquamarine;
+    height:50px;
+    width:50%;
+    padding:10px;
+    border-radius: 10px;
+    text-align:center;
+    color:blue;
+    font-size:20px;
+    cursor: pointer;
+    
+}
